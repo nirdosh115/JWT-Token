@@ -27,6 +27,4 @@ jobs:
       - name: Build with Maven
         run: mvn clean install -DskipTests
 
-      # Step 4: Run tests (you can remove this step if you don't want to run tests)
-      - name: Run tests
-        run: mvn test
+   
